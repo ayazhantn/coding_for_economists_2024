@@ -1,0 +1,16 @@
+   66  cd coding_for_economists_2024
+   67  ls
+   68  git add/rm 0_download_data.do
+   69  git rm 0_download_data.do
+   70  git rm 1_clean_data.do
+   71  git commit -m "Deleted do files from home folder"
+   72  git push
+   73  mkdir -p  code/python
+   74  mv .\01_intro_to_python.py code/python/01_intro_to_python.py
+   75  mv ./01_intro_to_python.py code/python/01_intro_to_python.py
+   76  ls code/python
+   77  git status
+   78  pwd
+   79  git rm 01_intro_to_python.py
+   80  git commit -m "Deleted a python file from home folder and removed it into the subfolder"
+   81  git push
